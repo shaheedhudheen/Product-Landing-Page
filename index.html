@@ -5,37 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pambalath Industrial Works</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div id="page-wrapper">
       <header id="header" class="header">
-        <div class="logo">
+        <a href="" class="logo">
           <img
             src="assets/logo1.png"
             alt="Logo of pambalath Industrial Works"
             id="header-img"
           />
+        </a>
+        <div class="links">
+          <nav id="nav-bar">
+            <ul class="nav-links">
+              <li>
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li>
+                <a href="#works" class="nav-link">Works</a>
+              </li>
+              <li>
+                <a href="#pricing" class="nav-link">Pricing</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <nav id="nav-bar">
-          <ul>
-            <li>
-              <a href="#about" class="nav-link">About</a>
-            </li>
-            <li>
-              <a href="#works" class="nav-link">Works</a>
-            </li>
-            <li>
-              <a href="#pricing" class="nav-link">Pricing</a>
-            </li>
-          </ul>
-        </nav>
       </header>
 
       <div class="contact-container">
         <section id="description">
           <h2>We Do All types Of Industrial Works</h2>
-          <form action="”mailto:shaheedhudheenpambalath@yahoo.com”" id="form">
+          <form
+            action="”mailto:shaheedhudheenpambalath@yahoo.com”"
+            id="form"
+            class="mail-input"
+          >
             <input
               type="email"
               name="email"
@@ -52,34 +58,49 @@
         </section>
       </div>
 
-      <div class="Container"></div>
+      <!-- <div class="Container"></div> -->
       <section id="about">
-        <div id="desc">
-          <h2>Good Management</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod,
-            sapiente a? Rerum perspiciatis rem ea atque qui consequuntur
-            voluptatem pariatur accusamus, illo odit, a ex delectus minus
-            eveniet sit totam.
-          </p>
+        <div class="grid">
+          <div class="icon">
+            <img src="assets\management.png" alt="" />
+          </div>
+          <div id="desc">
+            <h2>Good Management</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod,
+              sapiente a? Rerum perspiciatis rem ea atque qui consequuntur
+              voluptatem pariatur accusamus, illo odit, a ex delectus minus
+              eveniet sit totam.
+            </p>
+          </div>
         </div>
-        <div id="desc">
-          <h2>BUDGET</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-            excepturi quibusdam incidunt perspiciatis alias id, rem error quas
-            odit, deleniti cumque perferendis itaque quidem sunt, sit soluta
-            fugiat totam recusandae.
-          </p>
+        <div class="grid">
+          <div class="icon">
+            <img src="assets\budget.png" alt="" />
+          </div>
+          <div id="desc">
+            <h2>BUDGET</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+              excepturi quibusdam incidunt perspiciatis alias id, rem error quas
+              odit, deleniti cumque perferendis itaque quidem sunt, sit soluta
+              fugiat totam recusandae.
+            </p>
+          </div>
         </div>
-        <div id="desc">
-          <h2>Timeliness</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
-            expedita id aperiam explicabo voluptatum doloribus nesciunt optio
-            tempora doloremque sint rem, illo quis, deleniti quidem laudantium
-            quisquam molestias dolores in.
-          </p>
+        <div class="grid">
+          <div class="icon">
+            <img src="assets/clock.png" alt="" />
+          </div>
+          <div id="desc">
+            <h2>Timeliness</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
+              expedita id aperiam explicabo voluptatum doloribus nesciunt optio
+              tempora doloremque sint rem, illo quis, deleniti quidem laudantium
+              quisquam molestias dolores in.
+            </p>
+          </div>
         </div>
       </section>
       <section id="works">
