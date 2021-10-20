@@ -12,7 +12,7 @@ body{
 }
 
 .logo{
-    padding: 0 1.5rem;
+    padding: 0 1.5em;
 }
 
 header{
@@ -97,4 +97,11 @@ a{
     border-style: none;
     color: #264653;
     background-color: #e9c46a;
+}
+
+.email__box{
+    font-size: 1.3rem;
+    padding: .5em;
+    border-radius: 1em;
+    margin: .5em;
 }
