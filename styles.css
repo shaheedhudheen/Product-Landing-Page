@@ -6,6 +6,12 @@
     padding: 0;
 }
 
+@media (max-width: 550px){
+    body{
+        font-size: 10px;
+    }
+}
+
 body{
     background-color: #fff;
     font-family: 'Poppins', sans-serif;
@@ -38,6 +44,7 @@ a{
 .nav-link{
     display: inline-block;
     padding: 10px 15px;
+    color: #000;
 }
 
 .logo > img{
@@ -86,7 +93,7 @@ a{
     align-items: center;
 }
 
-#submit{
+.button{
     max-width: 150px;
     width: 100%;
     font-size: 14px;
@@ -104,4 +111,66 @@ a{
     padding: .5em;
     border-radius: 1em;
     margin: .5em;
+}
+
+.video--class{
+    display: flex;
+    justify-content: center;
+}
+
+.video--class > iframe{
+    width: 100%;
+    max-width: 600px;
+    
+}
+
+.product--pricing{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+.price__box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: calc(100% / 3);
+    border: 1px solid #000;
+  border-radius: 3px;
+  margin: 2em;
+}
+
+.pricing__title{
+    background-color: #ddd;
+    width: 100%;
+    padding: .75em;
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+.price__box > ul{
+    padding: 1em;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+.footer--links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
 }
